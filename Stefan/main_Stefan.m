@@ -16,7 +16,7 @@ D=1; % (==\alpha)
 T=0.5; 
 Tplot=[T/4 T/2 T]; 
 past=T/3;
-Dfactor=1;%2;
+Dfactor=1;
 dtc=Dfactor*(2*D/dx^2); dt=1/dtc;
 % d=1; stepU=1; U_MEAN=1; % GRW
 % dt=stepU*dx/U_MEAN;
@@ -68,3 +68,4 @@ save('sGRW','t_vector', 's_GRW');
 
 
 toc
+
