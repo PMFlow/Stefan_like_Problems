@@ -11,5 +11,6 @@ NameArray = {'Marker'}; ValueArray = {'o','+','x'}';
 set(P,NameArray,ValueArray);
 xlabel('$x$','Interpreter','latex');
 ylabel('$c(x,t)$','Interpreter','latex');
-legend(strvect); legend('boxoff'); % xlim([0 100])
+legend(strvect); legend('boxoff'); 
+
 
